@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chokokutai&family=Danfo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chokokutai&family=Danfo&family=Darker+Grotesque:wght@300..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <title>NewClothes | StreetWear </title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg p-0 h-100">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center">
+            <h1 class="nav-brand fw-bold m-0 text-center mx-3">NewClothes</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link fw-bold p-4">
+                            <i class="bi bi-house-fill me-1"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link fw-bold p-4">
+                            <i class="fi fi-rr-clothes-hanger me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link fw-bold p-4">
+                            <i class="bi bi-person-fill me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link fw-bold p-4">
+                            <i class="bi bi-basket2-fill me-1"></i>
+                            Sacola
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+        <div class="search-header w-50 h-100 p-3">
+            <form class="d-flex align-items-center">
+                <button class="border-0 p-2">
+                    <i class="bi bi-search"></i>
+                </button>
+                <input type="search" class="w-100 h-100 border-0" placeholder="O que você procura?" aria-label="Search">
+            </form>
+        </div>
+    </header>
+
+    <div class="header-collapse h-100 d-none">
+        <div class="container w-100 p-0">
+            <div class="d-flex justify-content-around align-items-center">
+                <button class="navbar-toggler-icon btn h-50 fs-3 border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDiv">
+                    <i class="bi bi-list"></i>
+                </button>
+                <h1 class="nav-brand fw-bold m-0 text-center my-2 p-2 w-50">NewClothes</h1>
+                <button class="btn h-100 border-0" type="button">
+                    <i class="bi bi-box-seam fs-4"></i>
+                </button>
+            </div>
+            <center>
+                <div class="search-header w-100 h-100 p-3">
+                    <form class="d-flex align-items-center">
+                        <button class="border-0 p-2">
+                            <i class="bi bi-search"></i>
+                        </button>
+                        <input type="search" class="w-100 h-100 border-0" placeholder="O que você procura?" aria-label="Search">
+                    </form>
+                </div>
+            </center>
+            <div class="d-flex justify-content-center">
+                <nav class="collapse w-100 pt-2 pb-3" id="collapseDiv">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link fw-bold p-4">
+                                <i class="bi bi-house-fill me-1"></i>
+                                Home
+                            </a>
+                            <hr class="m-0">
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link fw-bold p-4">
+                                <i class="fi fi-rr-clothes-hanger me-1"></i>
+                                Produtos
+                            </a>
+                            <hr class="m-0">
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link fw-bold p-4">
+                                <i class="bi bi-person-fill me-1"></i>
+                                Contato
+                            </a>
+                            <hr class="m-0">
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link fw-bold p-4">
+                                <i class="bi bi-basket2-fill me-1"></i>
+                                Sacola
+                            </a>
+                            <hr class="m-0">
+                        </li>
+                    </ul>
+                </nav>
+           </div>
+        </div>
+    </div>
+
+    <!-- BANNER ANIMATION -->
+    <div class="container-fluid p-0">
+        <div class="banner">
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+            <h5 class="mb-0 text-center"><i class="bi bi-truck me-2"></i>FRETE GRATIS PARA COMPRAS A PARTIR DE R$200 </h5>  
+        </div>   
+    </div>
+    
+    <!-- CAROUSEL COLECTION  -->
+    <section id="colection">
+        <div class="container py-2">
+            <div class="slider-content row rounded-3">
+                <div class="col-md-6 justify-content-center slider-content pt-1 pb-2">
+                    <div class="carousel slide" data-bs-ride="carousel" id="t-ShirtCarousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="1000000000">
+                                <img src="https://public-files.gumroad.com/s4w9t2qd2b3121bib10l8i84y29j" class="d-block w-100 rounded-2">
+                                <div class="overlay rounded-2"><h5 class="text-center">COMPRE JÁ</h5></div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="1000000000">
+                                <img src="https://public-files.gumroad.com/s296ue3kkynvvggqrm0hyb31nliz" class="d-block w-100 rounded-2">
+                                <div class="overlay rounded-2"><h5 class="text-center">COMPRE JÁ</h5></div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="1000000000">
+                                <img src="https://public-files.gumroad.com/2ioy4yqht9vkd4jgxecqb40he9ui" class="d-block w-100 rounded-2">
+                                <div class="overlay rounded-2"><h5 class="text-center">COMPRE JÁ</h5></div>
+                            </div>
+                        </div>
+                        <button type="button" class="carousel-control-prev" data-bs-target="#t-ShirtCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button type="button" class="carousel-control-next" data-bs-target="#t-ShirtCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center slider-content slider-desc position-relative rounded">
+                    <div class="slider-desc container text-center">
+                        <div>
+                            <h2>NEWTECH T-SHIRT</h2>
+                            <p class="fw-semibold">Uma breve descrição.</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-lg position-absolute bottom-0 end-0 m-4 rounded-circle" type="button">
+                        <i class="bi bi-bag w-100 h-100"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BANNER-MID -->
+    <div class="banner-mid mb-5">
+    <div class="row m-2 text-center" >
+       <div class="background-banner d-flex h-100">
+            <div class="col-4">
+                <div class="m-2">
+                    <div class="item-banner d-flex flex-column p-1">
+                         <span class="w-100">PRIMEIRA</span>
+                         <span class="w-100"><strong>TROCA GRATIS</strong></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="m-2">
+                    <div class="item-banner d-flex flex-column p-1">
+                        <span>8% DE</span>
+                        <span><strong>CASHBACK</strong></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="m-2">
+                    <div class="item-banner d-flex flex-column p-1">
+                        <span>ENTREGA PARA</span>
+                        <span><strong>TODO BRASIL</strong></span>
+                    </div>
+                </div>
+            </div>
+       </div>
+       </div>
+    </div>
+
+    <!-- PRODUTCS INICIAL BODY -->
+    <section id="product-init" > 
+       <div class="container p-0">
+            <h3 class="p-0 fw-bold">Lançamentos</h3>
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <div class="card mt-1 mb-3 border-0">
+                        <div class="card-head">
+                            <div class="container-body-oversize">
+                                <div class="overlay-card"><h5 class="text-center p-1">COMPRE JÁ</h5></div>
+                            </div>
+                        </div>
+                        <div class="card-body mt-2 p-1">
+                            <h5>OVERSIZE TREE NEWCLOTHES</h5>
+                            <span><strong>4x R$49,75 - R$ 199,00</strong></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card mt-1 mb-3 border-0">
+                        <div class="card-head">
+                            <div class="container-body-moletom">
+                                <div class="overlay-card"><h5 class="text-center p-1">COMPRE JÁ</h5></div>
+                            </div>
+                        </div>
+                        <div class="card-body mt-2 p-1">
+                            <h5>MOLETOM FOLIOT NEWCLOTHES</h5>
+                            <span><strong>4x R$87,25 - </strong><s>R$ 349,00</s> / <strong class="text-danger">R$ 249,90 </strong></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card mt-1 mb-3 border-0">
+                        <div class="card-head">
+                            <div class="container-body-oversize">
+                                <div class="overlay-card"><h5 class="text-center p-1">COMPRE JÁ</h5></div>
+                            </div>
+                        </div>
+                        <div class="card-body mt-2 p-1">
+                            <h5>OVERSIZE TREE NEWCLOTHES</h5>
+                            <span><strong>4x R$49,75 - R$ 199,00</strong></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card mt-1 mb-3 border-0">
+                        <div class="card-head">
+                            <div class="container-body-moletom">
+                                <div class="overlay-card"><h5 class="text-center p-1">COMPRE JÁ</h5></div>
+                            </div>
+                        </div>
+                        <div class="card-body mt-2 p-1">
+                            <h5>MOLETOM FOLIOT NEWCLOTHES</h5>
+                            <span><strong>4x R$87,25 - </strong><s>R$ 349,00</s> / <strong class="text-danger">R$ 249,90 </strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </section>
+
+    <section id="promotion" class="my-4">
+        <div class="container p-0">
+             <h3 class="p-0 fw-bold">Descontos</h3>
+             <div class="row">
+                 <div class="col-md-6 col-sm-12">
+                     <div class="card mt-1 mb-3 border-0 p-2">
+                         <div class="card-head">
+                             <div class="container-body-oversize">
+                                 <div class="overlay-card"><h5 class="text-center p-1">COMPRE JÁ</h5></div>
+                             </div>
+                         </div>
+                         <div class="card-body mt-2 p-1">
+                             <h5>OVERSIZE TREE NEWCLOTHES</h5>
+                             <span><strong>4x R$87,25 - </strong><s>R$ 349,00</s> / <strong class="text-danger">R$ 249,90 </strong></span>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-6 col-sm-12">
+                     <div class="card mt-1 mb-3 border-0 p-2">
+                         <div class="card-head">
+                             <div class="container-body-moletom">
+                                 <div class="overlay-card"><h5 class="text-center p-1">COMPRE JÁ</h5></div>
+                             </div>
+                         </div>
+                         <div class="card-body mt-2 p-1">
+                             <h5>MOLETOM FOLIOT NEWCLOTHES</h5>
+                             <span><strong>4x R$87,25 - </strong><s>R$ 349,00</s> / <strong class="text-danger">R$ 249,90 </strong></span>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+        </div>
+     </section>
+
+    
+    <!-- OFICIAL PRODUCT  -->
+    <section id="product" class="mt-5">
+        <div class="container p-0">
+            <div class="row my-5">
+                <aside class="col-sm-12 col-md-2 p-0">
+                    <nav class="nav nav-pills flex-md-column">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#camisas" class="btn btn-product effect my-1 nav-link me-2 active"><i class="bi bi-caret-right-fill opacity-0 pb-1"></i><span>CAMISA</span></button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#moletom" class="btn btn-product effect my-1 nav-link me-2"><i class="bi bi-caret-right-fill opacity-0 pb-1"></i><span>MOLETONS</span></button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#calças" class="btn btn-product effect  my-1 nav-link me-2"><i class="bi bi-caret-right-fill opacity-0 pb-1"></i><span>CALÇAS</span></button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#acessorios" class="btn btn-product effect my-1 nav-link me-2"><i class="bi bi-caret-right-fill opacity-0 pb-1"></i><span>ACESSÓRIOS</span></button>
+                    </nav>
+                </aside>
+                <div class="col-md-10 col-sm-12 p-0">
+                    <div class="container">
+                        <div class="tab-content" style="height: 54vh;">
+                            <div class="tab-pane active w-100 h-100 rounded-2" id="camisas">
+                                <div class="overlay-tab w-100 h-100 d-flex align-items-end p-2">
+                                   <div class="overlay-content flex-column p-4">
+                                        <h2>Basic Colection - NEWCLOTHES®</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <button type="button" class="btn-shop">Shop Now!</button>
+                                    </div>
+                                </div>
+                            </div>         
+                            <div class="tab-pane w-100 h-100 rounded-2" id="moletom">
+                                <div class="overlay-tab w-100 h-100 d-flex align-items-end p-2">
+                                   <div class="overlay-content flex-column p-4">
+                                        <h2>Basic Colection - NEWCLOTHES®</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <button type="button" class="btn-shop">Shop Now!</button>
+                                    </div>
+                                </div>
+                            </div>         
+                            <div class="tab-pane w-100 h-100 rounded-2" id="calças">
+                                <div class="overlay-tab w-100 h-100 d-flex align-items-end p-2">
+                                   <div class="overlay-content flex-column p-4">
+                                        <h2>Basic Colection - NEWCLOTHES®</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <button type="button" class="btn-shop">Shop Now!</button>
+                                    </div>
+                                </div>
+                            </div>         
+                            <div class="tab-pane w-100 h-100 rounded-2" id="acessorios">
+                                <div class="overlay-tab w-100 h-100 d-flex align-items-end p-2">
+                                   <div class="overlay-content flex-column p-4">
+                                        <h2>Basic Colection - NEWCLOTHES®</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <button type="button" class="btn-shop">Shop Now!</button>
+                                    </div>
+                                </div>
+                            </div>         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section id="footer">
+        <footer>
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-md-3 col-sm-12">
+                        <h5>Dados Pessoais</h5>
+                        <ul>
+                            <li class="py-1">
+                                <a href="#">Minha Conta</a>
+                            </li>
+                            <li class="py-1">
+                                <a href="#">Meu Carrinho</a>
+                            </li>
+                            <li class="py-1">
+                                <a href="#">Meus Pedidos</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <h5>Dúvidas Frequentes</h5>
+                        <ul>
+                            <li class="py-1">
+                                <a href="#">Nossas lojas</a>
+                            </li>
+                            <li class="py-1">
+                                <a href="#">Entrega e Frete</a>
+                            </li>
+                            <li class="py-1">
+                                <a href="#">Trocas e devoluções</a>
+                            </li>
+                            <li class="py-1">
+                                <a href="#">Política de Privacidade</a>
+                            </li>
+                            <li class="py-1">
+                                <a href="#">Central de Ajuda</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                        <h5>Redes Sociais</h5>
+                        <ul class="d-flex justify-content-around p-0">
+                            <li class="py-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="py-1">
+                                <a href="#">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="py-1">
+                                <a href="#">
+                                    <i class="bi bi-twitter-x"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="newlestter col-md-4 col-sm-12">
+                        <h5 class="py-2 fw-bolder">Subscribe to Newlestter!</h5>
+                        <p class="fw-6">Se inscreva para receber as novidades exclusivas da NEWCLOTHES®!</p>
+                        <form class="d-flex flex-column">
+                            <div class="input-container">
+                                <label for="name" class="d-flex"><i class="bi bi-person-circle"></i></label>
+                                <input type="text" id="name" name="name" placeholder="Name:" class="form-control">
+                            </div>
+                            <div class="input-container my-2">
+                                <label class="d-flex"><i class="bi bi-telephone-fill"></i></label>
+                                <input type="text" id="telefone" name="telefone" placeholder="Telefone:" class="form-control">
+                            </div>
+                            <div class="input-container mb-1">
+                                <label class="d-flex"><i class="bi bi-envelope-open-fill"></i></label>
+                                <input type="text" id="email" name="email" placeholder="Email:" class="form-control">
+                            </div>
+                            <div class="d-flex mt-2 justify-content-end align-items-end py-2">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr class="w-100">
+        </footer> 
+        <footer class="h-100 w-100">
+            <div class="container">
+                <div class="row pb-5">
+                    <div class="col-6 sign-footer">
+                        <h2 class="nav-brand fw-bold">NEWCLOTHES®</h2>
+                        <p class="text-light mb-1">© Todos os direitos reservado - NewClothes® Ltda.</p>
+                        <p class="text-light m-0">Desenvolvido por <strong>Giuseppe Ribeiro</strong></p>
+                    </div>
+                    <div class="col-6">
+                        <div class="img-ebac d-flex align-items-center justify-content-end">
+                            <img alt="logo" src="https://ebac.art.br/local/templates/brazil/i/brazil_logo_white_port.png" class=" p-3">
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
