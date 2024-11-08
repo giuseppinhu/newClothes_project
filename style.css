@@ -551,4 +551,9 @@ footer {
             padding: 0 !important;
         }
     }
+    
+    .img-ebac img {
+        width: 90%;
+        height: 60%;
+    }        
 }
