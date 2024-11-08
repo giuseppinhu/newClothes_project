@@ -245,6 +245,10 @@ header {
         transition: background-image 1.5s ease-in;
     }
 
+    .container-body-oversize:hover {
+        background-image: url(https://public-files.gumroad.com/hp8b83wl3nzwwdooigq7lvjwm1sy);
+    } 
+
     .container-body-moletom {
         width: 100%;
         height: 70vh;
@@ -253,6 +257,10 @@ header {
         background-position: center;
         transition: background-image 1.5s ease-in;
     }
+
+    .container-body-moletom:hover {
+        background-image: url(https://public-files.gumroad.com/rgbgch8bcc1p89xnr1eql6wl7ywl);
+    } 
 }
 
 #product {
@@ -551,7 +559,7 @@ footer {
             padding: 0 !important;
         }
     }
-    
+
     .img-ebac img {
         width: 90%;
         height: 60%;
