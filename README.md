@@ -1,6 +1,6 @@
 # 👕 NewClothes | StreetWear
 
-![NewClothes Banner](inserir-link-da-imagem-aqui)
+![NewClothes Banner](https://giuseppinhu.github.io/portifolio/src/assets/projects/newclothes_img.jpeg)
 
 ## 🔍 Funcionalidades do Site
 
